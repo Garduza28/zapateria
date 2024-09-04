@@ -1,0 +1,8 @@
+Clave Administrador:
+58
+
+RFD:
+FJAKS01212
+
+Contraseña:
+hola2

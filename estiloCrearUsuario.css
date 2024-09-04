@@ -1,0 +1,32 @@
+/*--crear usuario--*/
+.mar{
+    margin: 100px;
+    padding: 40px;
+}
+
+body{
+    background-image: linear-gradient(to right, #188ae7 , rgb(176, 243, 221));
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+.h2{
+    color: red;
+}
+
+.mar-2{
+    margin: 180px;
+    margin-left: 30%;
+    padding: 40px;
+    text-align: center;
+}
+
+.btn{
+     width: 70%;
+}
+
+
+
+

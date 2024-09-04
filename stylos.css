@@ -1,0 +1,499 @@
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  width: 100%;
+  margin-bottom: 3rem;
+  background-color: #fdfaf4;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 30rem;
+}
+.carousel-item > img {
+  position: absolute;
+  padding-bottom:25px;
+  padding-left:45px;
+  padding-right: 45px;
+  padding-top: 25px;
+  min-width: 100%;
+  height: 30rem;
+  border-top: 5px solid grey;
+  border-bottom:5px solid grey;
+}
+
+.carimg{
+  width: 100%;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 300;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 25px ; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+.row{
+  background-color: #fdfaf4 ;
+  padding-top: 5px;
+    padding-left: 30px;
+  padding-right: 30px;
+}
+
+#linea{
+  background-color: #fdfaf4;
+  border-top: 5px solid grey;
+  border-bottom:5px solid grey;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.featurette-divider{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+p{
+  font-size: 22px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+h1{
+   padding-right: 30px;
+   padding-left: 30px;
+}
+h2{
+  font-size: 22px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+}
+#linea ul li {
+  width: 17%;
+  display: inline-block;
+  padding-top: 5px;
+  padding-right: 30px;
+}
+li{
+  padding-right: 1px;
+  padding-left: 1px;
+}
+.HOL1{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.NoH1{
+  text-transform: uppercase;
+    position:relative;
+    display: inline-block;
+    font-size: 35px; 
+    border-top: 5px solid red;
+    border-bottom:5px solid red;
+    font-family: Bahnschrift SemiBold,'Staatliches', cursive;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: center;
+}
+.NoH2{
+    text-transform: uppercase;
+    position:relative;
+    font-size: 25px; 
+    font-family: Bahnschrift SemiBold,'Staatliches', cursive;
+     justify-content: center;
+}
+div a img {
+  width: 19%;
+  display: inline-block;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.FONW{
+  background-color: white;
+    border-top: 5px solid grey;
+  border-bottom:5px solid grey;
+   padding-bottom: 10px;
+}
+.pief div{
+  background-color: #2E2E2E;
+  color: white;
+}
+#InforA{
+    background-color:  #8A0829;
+    font-size: 30px;
+
+}
+.FLOIZ{
+  float: left;
+}
+footer{
+  width: 100%;
+  background-color: #2E2E2E;
+}
+.container-footer-all{
+  width: 100%;
+  margin: auto;
+  max-width: 1600px;
+}
+.container-body{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+}
+.colu1{
+  max-width: 533px;
+  text-align: justify;
+  padding-right:  20px;
+}
+.colu1 p{
+  font-size: 20px;
+}
+.colu1 h1{
+ font-size: 30px;
+ margin-top: 20px;
+}
+.colu3{
+  max-width: 533px;
+  padding-right:  20px;
+}
+.colu3 h1{
+ font-size: 30px;
+ margin-top: 20px;
+}
+.colu3 label{
+  font-size: 20px;
+  background-color: none;
+}
+.colu2{
+  max-width: 533px;
+  padding-right:  20px;
+
+}
+.colu2 h1{
+  font-size: 30px;
+  margin-top: 20px;
+  background-color: none;
+}
+.colu2 label{
+  font-size: 20px;
+  background-color: none;
+}
+.row2{
+  margin-top: 20px;
+  display: flex;
+}
+.row2 img{
+  width: 36px;
+  height: 36px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.row3 {
+  margin-top: 20px;
+  display: flex;
+}
+.row3 img{
+  width: 36px;
+  height: 36px;
+}
+.row3 label{
+  max-width: 400px;
+  margin-left: 25px;
+}
+.row2 label{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.container-footer{
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  color: white;
+  background-color: #8A0829;
+}
+.infor a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.copy a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.NoH3{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  position:relative;
+  font-size: 25px; 
+   padding-top: 10px;
+   padding-bottom: 10px;
+  font-family: Bahnschrift SemiBold,'Staatliches', cursive;
+  justify-content: center;
+}
+b{
+  color: black;
+}
+.bg-dark {
+    background-color: #8a0829!important;
+}
+#logo{
+  padding-top: 20px;
+}
+.nav-item{
+ padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:  20px;
+  padding-right:  20px;
+}
+.navbar{
+   padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:  20px;
+  padding-right:  20px;
+}
+.NoH11{
+  text-transform: uppercase;
+    position:relative;
+    display: inline-block;
+    font-size: 60px; 
+    border-top: 5px solid red;
+    border-bottom:5px solid red;
+    font-family: Bahnschrift SemiBold,'Staatliches', cursive;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: center;
+}
+#ImagenesD .Linea2{
+  border-top: 2px solid grey;
+  border-bottom:2px solid grey;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  width: 32%;
+  display: inline-block;
+  padding-top: 5px;
+  padding-right: 30px;
+  font-family: Bahnschrift SemiBold;
+}
+#ImagenesD h2{
+  padding-bottom: 5px;
+}
+li p{
+  font-size: 22px;
+}
+
+p b {
+  font-size: 24px;
+}
+h2 b p{
+  background: red;
+}
+.contenedor{
+  text-align: center;
+  margin: auto;
+  background:  #8A0829;
+  width: 60%;
+  padding-bottom: 10px;
+}
+ ul li{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+ul.slider{
+  position: relative;
+  width: 800px;
+  height: 300px;
+}
+
+ul.slider li{
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  background-color: white;
+  transition: opacity .5s;
+}
+ul.slider li img{
+  width: cover;
+  height: 300px;
+  object-fit: cover;
+}
+ul.slider li:first-child{
+  opacity: 1;
+}
+ul.slider li:target{
+  opacity: 1;
+}
+.menu{
+    padding-right: 13px; 
+  text-align: center;
+  margin: 20px;
+}
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  font-family:Bahnschrift SemiBold; 
+  padding: 10px;
+  padding-bottom: 20px;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+#linea2{
+  width: 100%;
+  background-color: #fdfaf4;
+  border-top: 5px solid grey;
+  border-bottom:5px solid grey;
+  text-align: center;
+}
+.nav-item{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.logo{ 
+  width: 320px;
+  height: 70px;
+  position: absolute;
+  right: 30px;
+  top: 0px;
+}
+.logo2{ 
+  min-width: 450px;
+  position: absolute;
+  right: 30px;
+  top: 0px;
+}
+#linea5{
+  font-size: 25px;
+  background-color: #fdfaf4;
+  border-top: 5px solid grey;
+  border-bottom:5px solid grey;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.FORM1{
+  border-top:3px solid grey;
+  border-bottom:3px solid grey;
+}
+.FORM2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom:4px solid grey;
+  border-right:4px solid grey;
+  border-left: 4px solid grey;
+  border-top:  4px solid grey;
+}
+.NoH12{
+  color: red;
+  text-transform: uppercase;
+    position:relative;
+    display: inline-block;
+    font-size: 35px; 
+    border-bottom:5px solid grey;
+    font-family: Bahnschrift SemiBold,'Staatliches', cursive;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: center;
+}
+.rojo{
+  font-size: 24px;
+  color: red;
+  text-decoration: underline;
+}
+.btn-warning{
+  padding: 1px;
+  position: relative;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: Bahnschrift SemiBold,'Staatliches', cursive;
+} 
+.btn-danger{
+  width: 100%;
+  padding-bottom: 5px;
+  position: relative;
+}
+.avatar{ 
+  width: 50px;
+  height: 40px;
+  position: relative;
+  padding: 0px;
+  padding-bottom: 2px;
+  top: 0px;
+  float: left;
+}

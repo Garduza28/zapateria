@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+#carouselExampleSlidesOnly img{
+    width: 640px; 
+    height: 560px; 
+
+}
+
+#h1{
+    color: red;
+}
+
+h3{
+    color: #3490dc;
+}
+
+#h3{
+    color: white;
+}
+
+.btn  a{
+    width: 25%;
+}
+
+
+/*--nav--*/
+.nav li{
+    transition: all .7s;
+    list-style: none;
+    display: inline-block;
+    padding: 14px;
+    width: 16;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+
+.nav li:hover{
+    background-color: #35c6eb;
+}
+
+.nav h1{
+    display: inline-block;
+    margin-right: 60px;
+    color: white;
+    
+}
+
+.nav{
+    width: 100%;
+    background-color: #3490dc;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor{
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+p{
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+}
+/*-- final del nav--*/
+
+
+/*-- login--*/
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #188ae7 , rgb(176, 243, 221));
+    background-repeat: no-repeat;
+    background-size: 1400px 700px ;
+}
+
+
+.login-box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+
+
+.login-box h1{
+    float:left;
+    font-size: 30px;
+    border-bottom: 6px solid #4caf50;
+    margin-bottom: 50px;
+    padding: 13px 0;   
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #4caf50;
+}
+
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+
+#espa:hover{
+    font-size: 18px;
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+
+
+
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid #4caf50;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transform: all 300ms;
+    margin: 12px 0;
+}
+
+.link{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    opacity: .7;
+    transition: opacity .3s ease;
+
+}
+
+.link a:hover{
+    opacity: 1;
+}
+
+/*--final login--*/
+
+/*--pies de pagina*/
+footer{
+    position: absolute;
+    background:  #3490dc;
+    height: auto;
+    width: 98.8vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8em;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+
+.socials li{
+    margin: 0 10px;
+
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i{
+    color: aqua;
+
+
+}
+
+.footer-bottom{
+    background: #3cc4c9;
+    width: 98.8vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+#p{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+#list li{
+    list-style: none;
+    font-size: 17px;
+}
+/*--pies de pagina*/
+
+
+
